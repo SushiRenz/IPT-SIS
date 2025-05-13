@@ -1,0 +1,88 @@
+body {
+    background-color: white;
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .home {
+    display: flex;
+    min-height: 100vh;
+  }
+  
+  .dashboard {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center; 
+    text-align: center;
+    padding: 20px;
+  }
+  h1 {
+    font-family: Arial, sans-serif; 
+    font-weight: 600;
+    color: black;
+    text-align: left;
+    margin-bottom: 16px;
+    position: absolute;
+    top: 20px;
+    left: 420px;
+    font-size: 50px;
+  }
+  h2 {
+    font-family: Arial, sans-serif; 
+    font-weight: 600;
+    color: black;
+    text-align: left;
+    margin-bottom: 16px;
+    position: absolute;
+    top: 80px;
+    left: 700px;
+    font-size: 40px;
+  }
+  p {
+    font-family: Arial, sans-serif; 
+    font-weight: 600;
+    color: black;
+    text-align: left;
+    margin-bottom: 16px;
+    position: absolute;
+    top: 150px;
+    left: 700px;
+    font-size: 30px;
+  }
+  .title {
+      position: relative;
+      top: -28%;
+      left: 100%;
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #333;
+  }
+
+  .text-fields {
+    position: absolute;
+    top: 230px;
+    left: 700px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 300px;
+}
+
+.MuiInputBase-input {
+    font-size: 20px !important;
+    color: black !important;
+}
+
+.MuiFormLabel-root {
+    font-size: 20px !important;
+    color: black !important;
+}
+
+button {
+    font-size: 18px;
+    padding: 10px 20px;
+    margin-top: 10px;
+}
